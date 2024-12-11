@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <link rel="stylesheet" href="dificuldades.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dificuldades</title>
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- AOS -->
+
+</head>
+
+<body>
+    <!-- HEADER AQUI -->
+    <header>
+        <nav id="navbar">
+
+            <img src="./images/logo.png" id="logo" alt="">
+
+            <div id="paginas">
+                <div id="botaoMenuHamburger">
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                </div>
+
+
+                <ul id="navl">
+                    <li><a href="/visao.html">VISÃO</a></li>
+                    <li><a href="/motivos.html">MOTIVOS</a></li>
+                    <li><a href="/dificuldades.html">DIFICULDADES</a></li>
+                    <li><a href="/como-ajudar.html">ONG's</a></li>
+                </ul>
+
+            </div>
+
+            <label onclick="alternarModo()" class="switch">
+                <input onclick="darkMode()" type="checkbox">
+                <span class="slider"></span>
+            </label>
+        </nav>
+    </header>
+
+
+    <main>
+        <!-- Reinier -->
+        <section id="Intro">
+            <h2>E quais as primeiras dificuldades quando eles chegam ao Brasil?</h2>
+            <img src="./images/Intro.jpg" alt="">
+
+        </section>
+
+
+        <!-- secoes -->
+        <section id="Segunda">
+            <div id="barreiras">
+                <h2 data-aos="fade-up">As barreiras línguisticas</h2>
+                <p data-aos="fade-up">Outra grande dificuldade que os refugiados enfrentam ao procurar emprego ou
+                    moradia no Brasil é a
+                    língua
+                    portuguesa. Isso é o que afirma o Instituto de Pesquisa Econômica Aplicada (Ipea), que aponta a
+                    barreira
+                    linguística como uma das principais causas do desemprego elevado dos imigrantes.</p>
+            </div>
+
+            <div id="linha">
+                <p> </p>
+            </div>
+
+            <div id="recolocacao">
+                <h2 data-aos="fade-up">Recolocação profissional</h2>
+                <p data-aos="fade-up">Apesar de acolher muitas pessoas, existem poucas políticas públicas que ajudam os
+                    refugiados a se
+                    inserirem na sociedade, fazendo com que muitos passem por dificuldades. Dados da ONG Estou
+                    Refugiado, em
+                    parceria com o Instituto Qualibest, mostram que 66% dos imigrantes enfrentam dificuldades em
+                    encontrar
+                    um emprego.</p>
+            </div>
+        </section>
+
+        <!-- Francisco -->
+        <section id="parallax">
+
+            <h2 data-aos="fade-up">Acesso a serviços médicos.</h2>
+            <p data-aos="fade-up">Os imigrantes têm baixas taxas de cobertura de seguro médico e fraco acesso aos
+                serviços de saúde. Além
+                disso, as mudanças políticas limitaram o acesso dos imigrantes a seguros e cuidados de saúde. Estas
+                barreiras vão desde limitações financeiras à discriminação e medo de deportação. Isto contribuiu para
+                preocupações crescentes sobre a capacidade dos imigrantes de participarem em muitos programas de
+                cuidados de saúde gratuitos.</p>
+            </div>
+        </section>
+
+        <!-- Francisco -->
+        <section id="habitacao">
+            <img class="animar"
+                src="https://images.pexels.com/photos/12215335/pexels-photo-12215335.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                alt="">
+            <div class="container"> 
+                <h2>Habitação</h2>
+                <p>Os imigrantes são provavelmente o grupo mais vulnerável no que diz respeito à habitação. Isto porque
+                    enfrentam graves desafios para encontrar habitação segura, digna e acessível. No entanto, os
+                    problemas
+                    de habitação dos imigrantes são mais do que apenas a taxa de propriedade de casa própria. Muitos
+                    destes
+                    imigrantesrecém-estabelecidos estão desempregados e não têm condições de pagar o aluguel. Além
+                    disso, há
+                    uma carga de custos de habitação mais elevada para os imigrantes ilegais em comparação com os seus
+                    homólogos imigrantes legais.</p>
+
+
+
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div id="contatos">
+
+            <div id="acima">
+                <img src="./images/rede.png" alt="" class="imgrodape">
+            </div>
+
+            <div id="abaixo">
+                <img onclick="window.location.href = 'https://www.linkedin.com/'"
+                    src="./images/linkedin.png" alt="" class="imgrodape">
+                <img onclick="window.location.href = 'https://www.x.com/'" src="./images/twitter.png"
+                    alt="" class="imgrodape">
+                <img onclick="window.location.href = 'https://www.instagram.com/'"
+                    src="./images/instagram.png" alt="" class="imgrodape">
+            </div>
+
+        </div>
+
+        <p id="direitos">&copy; Todos os direitos reservados.</p>
+
+        <div id="ajuda">
+            <nav>
+                <ul>
+                    <li> <a href="visao.html">Visão</a></li>
+                    <li> <a href="motivos.html">Motivos</a></li>
+                    <li> <a href="dificuldades.html">Dificuldades</a></li>
+                    <li> <a href="como-ajudar.html">ONGs</a></li>
+                </ul>
+            </nav>
+        </div>
+
+    </footer>
+
+
+
+    <!-- AOS -->
+    <script>
+        AOS.init();
+    </script>
+    <!-- AOS -->
+
+    <script src="dificuldades.js"></script>
+
+</body>
+
+</html>

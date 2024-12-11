@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sem Fronteiras</title>
+    <link rel="stylesheet" href="stylefolder/indexstl.css">
+
+</head>
+<body>
+    <!-- Header feito pelo Eduardo -->
+    <header>
+        <nav id="navbar">
+
+            <img src="./images/logo.png" id="logo" alt="">
+
+            <div id="paginas">
+                <div id="botaoMenuHamburger">
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                </div>
+
+
+                <ul id="navl">
+                    <li><a href="/visao.html">VISÃO</a></li>
+                    <li><a href="/motivos.html">MOTIVOS</a></li>
+                    <li><a href="/dificuldades.html">DIFICULDADES</a></li>
+                    <li><a href="/como-ajudar.html">ONG's</a></li>
+                </ul>
+
+            </div>
+
+            <label onclick="alternarModo()" class="switch">
+                <input onclick="darkMode()" type="checkbox">
+                <span class="slider"></span>
+            </label>
+        </nav>
+    </header>
+   <!-- Conteudo principal da página  -->
+    <main>
+        <section id="frst">
+            <img src="images/pexels-gabrielle-meschini-3726370-26076565.jpg" alt="">
+            <div class="text">
+            <h2>Valores</h2>
+            <p>O Sem Fronteiras é movido pelos princípios de solidariedade, inclusão e empatia. Acreditamos que todos, independentemente de sua origem ou história, têm o direito de encontrar acolhimento, respeito e oportunidades de desenvolvimento. Trabalhamos com transparência, cooperação e compromisso social para construir uma rede de suporte que respeite as diferenças culturais e fortaleça a dignidade humana.
+            </p>
+        </div>
+        </section>
+        <section id="sec">
+           <div class="text">
+            <h2>Visão</h2>
+            <p>
+                Sonhamos com um mundo onde as fronteiras sejam apenas linhas no mapa, e não barreiras para a humanidade. Almejamos ser referência no Brasil como uma ponte eficaz entre migrantes e organizações que oferecem suporte, promovendo uma integração social sustentável e enriquecedora. Nosso objetivo é construir comunidades acolhedoras, onde cada pessoa migrante se sinta parte ativa e valorizada da sociedade.
+            </div> 
+            <img src="images/pexels-allanfranca-3226257.jpg" alt="">        
+        </p>
+        
+        </section>
+        <!-- Estastísticas -->
+        <section id="third">
+            <h3>Estatísticas Representativas de Migrantes no Brasil</h3>
+            
+            <div class="counter counter1">
+                <div data-aos="fade-up" class="num" id="Hogwarts">
+                    <h2 class="contador" data-alvo=" 15679"> 0 </h2>
+                    <p>Migrantes Da Colombia</p>
+                </div>
+        
+                <div data-aos="fade-up" class="num" id="Venezuela">
+                    <h2 class="contador" data-alvo="500636"> 0 </h2>
+                    <p>Migrantes da Venezuela</p>
+                </div> 
+            </div>
+        
+            <div class="counter counter2">
+                <div data-aos="fade-up" class="num num2"id="Haiti">
+                    <h2 class="contador" data-alvo="183102"> 0 </h2>
+                    <p>Migrantes do Haiti</p>
+                </div>
+        
+                <div data-aos="fade-up" class="num num2" id="Bolivia">
+                    <h2 class="contador" data-alvo="110795"> 0 </h2>
+                    <p>Migrantes da Bolívia</p>
+                </div>
+            </div>
+            </section>
+        </section>
+        <section id="objetivos">
+            <h2>Nossos objetivos</h2>
+            <ul>
+                <li><strong>Interligar organizações e migrantes:</strong> Facilitar a conexão entre ONGs, órgãos governamentais e pessoas migrantes, garantindo acesso a serviços essenciais como saúde, educação, moradia e emprego.</li>
+                <li><strong>Capacitar e integrar:</strong> Oferecer suporte para a adaptação cultural e profissional, incluindo aulas de idiomas, orientação legal e treinamentos técnicos.</li>
+                <li><strong>Promover inclusão social:</strong> Combater preconceitos, disseminar informações e sensibilizar a sociedade sobre a importância de acolher migrantes como agentes de diversidade e progresso.</li>
+                <li><strong>Apoiar e acompanhar:</strong> Criar um sistema de suporte contínuo, desde o acolhimento inicial até a construção de uma vida estável e autônoma no Brasil.</li>
+            </ul>
+            <a class="ctaa" href="motivos.html"><button id="cta-button">Saiba Mais</button> </a>
+        </section>
+    </main>
+    <!-- Footer corrigido pelo Francisco -->
+    <footer>
+        <div id="contatos">
+
+            <div id="acima">
+                <img src="/images/rede.png" alt="" class="imgrodape">
+            </div>
+
+            <div id="abaixo">
+                <img onclick="window.location.href = 'https://www.linkedin.com/'" src= "./images/linkedin.png" alt="" class="imgrodape">
+                <img onclick="window.location.href = 'https://www.x.com/'" src="./images/twitter.png" alt="" class="imgrodape">
+                <img onclick="window.location.href = 'https://www.instagram.com/'" src="./images/instagram.png" alt="" class="imgrodape">
+            </div>
+
+        </div>
+
+        <p id="direitos">&copy; Todos os direitos reservados.</p>
+
+        <div id="ajuda">
+            <nav>
+                <ul>
+                    <li> <a href="visao.html">Visão</a></li>
+                    <li> <a href="motivos.html">Motivos</a></li>
+                    <li> <a href="dificuldades.html">Dificuldades</a></li>
+                    <li> <a href="como-ajudar.html">ONGs</a></li>
+                </ul>
+            </nav>
+        </div>
+
+    </footer>
+    
+
+<script src="scriptt.js" defer></script>
+</body>
+</html>

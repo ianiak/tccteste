@@ -1,0 +1,748 @@
+/* Fontes:  */
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* Seletor Universal */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+}
+
+/* Prédefinições */
+body {
+  background-color: #f2dcc2;
+  transition: background-color 0.4s ease-in-out, color 0.4s ease-in-out;
+  overflow-x: hidden;
+}
+
+section {
+  height: 100vh;
+  width: 100%;
+}
+
+/* Formatação da terceira visualização  */
+#third {
+  display: flex;
+  flex-direction: column;
+}
+
+#third h2 {
+  font-size: 25px;
+  text-align: center;
+  margin: 40px 0;
+
+}
+
+#third p {
+  font-size: 20px;
+  text-align: center;
+  margin: 30px 0;
+}
+
+#third button {
+  align-self: center;
+  padding: 15px 40px;
+  font-size: 20px;
+  background-color: #ffbd59;
+  margin-top: 30px;
+  border: none;
+  border-radius: 12px;
+  font-weight: bolder;
+  transition: all 0.2s ease-in-out;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#third button:hover {
+  cursor: pointer;
+  scale: 1.3;
+  background-color: #ffb039;
+}
+
+/* Formatação subtitulo */
+h2 {
+  font-family: "Lora", serif;
+}
+
+
+
+/* Primeira Seção */
+#frst {
+  width: 100%;
+
+  display: flex;
+
+
+}
+
+/* Segunda Seção */
+#sec {
+  width: 100%;
+  display: flex;
+}
+
+#frst img {
+  width: 50%;
+  height: 100vh;
+  object-fit: cover;
+}
+
+#sec img {
+  width: 50%;
+  right: 0%;
+  height: 100vh;
+  object-fit: cover;
+}
+
+#frst h2 {
+  width: 100%;
+}
+
+#sec h2 {
+  width: 100%;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  margin: 8% 5%;
+  line-height: 1.5;
+
+}
+
+.text h2 {
+  text-align: center;
+  font-size: 32px;
+  margin: 30px 0;
+}
+
+.text p {
+  font-size: 21px;
+  font-family: "Poppins", serif;
+}
+
+
+
+
+
+
+/* Contador Estastisticas */
+.counter {
+  margin: auto;
+}
+
+.num {
+
+  padding: 20px;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  border-radius: 15px;
+}
+
+.num2 {
+  padding: 40px;
+}
+
+.counter1 {
+  display: flex;
+  gap: 40px;
+
+}
+
+.counter2 {
+  display: flex;
+  gap: 40px;
+
+}
+
+/* Formatação titulo contador */
+
+h3 {
+  text-align: center;
+  font-size: 2em;
+  margin-top: 2%;
+
+}
+
+/* Formatação bandeiras */
+#Hogwarts {
+  background: linear-gradient(rgba(0, 0, 0, 0.755), rgba(0, 0, 0, 0.755)), url(https://static.significados.com.br/foto/bandeira-presidencial-da-colombia-significados.png);
+  background-position: center;
+  background-size: cover;
+}
+
+#Venezuela {
+  background: linear-gradient(rgba(0, 0, 0, 0.755), rgba(0, 0, 0, 0.755)), url(https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Flag_of_Venezuela.svg/250px-Flag_of_Venezuela.svg.png);
+  background-position: center;
+  background-size: cover;
+}
+
+#Haiti {
+  background: linear-gradient(rgba(0, 0, 0, 0.755), rgba(0, 0, 0, 0.755)), url(https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Flag_of_Haiti.svg/1200px-Flag_of_Haiti.svg.png);
+  background-position: center;
+  background-size: cover;
+}
+
+#Bolivia {
+  background: linear-gradient(rgba(0, 0, 0, 0.755), rgba(0, 0, 0, 0.755)), url(https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Flag_of_Bolivia_%28state%29.svg/1024px-Flag_of_Bolivia_%28state%29.svg.png);
+  background-position: center;
+  background-size: cover;
+
+}
+
+.counter h2 {
+  color: white;
+  text-shadow: 1px 1px 2px black;
+  font-family: "Poppins", serif;
+}
+
+.counter p {
+  color: white;
+  text-shadow: 1px 1px 2px black;
+  font-family: "Poppins", serif;
+}
+
+/* Subtitulo e Lista */
+#objetivos h2 {
+
+  font-size: 2em;
+  text-align: center;
+  margin: 40px 0;
+
+}
+
+#objetivos li {
+  font-size: 20px;
+  font-family: "Poppins", serif;
+  text-align: center;
+  margin: 30px 15%;
+}
+
+#cta-button {
+  padding: 10px;
+  font-family: "Poppins", sans-serif;
+
+  margin-bottom: 5px;
+  display: block;
+  margin: auto;
+  border-radius: 34px;
+  border: none;
+  font-size: 21px;
+  background-color: #ffbd59;
+  color: black;
+  transition: all 0.3s;
+}
+
+#cta-button:hover {
+  scale: 1.2;
+  background-color: #eb9f2e;
+}
+
+header #navbar img {
+  width: 90px;
+}
+
+header #navbar {
+  display: flex;
+}
+
+header {
+  top: 0;
+}
+
+
+header #navbar #paginas {
+  display: flex;
+  justify-content: space-between;
+  background-color: #591902;
+  padding: 15px;
+}
+
+header nav #paginas #botaoMenuHamburger {
+  display: none;
+}
+
+header nav #paginas #botaoMenuHamburger .bar {
+  display: none;
+  background-color: white;
+  margin: 10px;
+  width: 50px;
+  height: 8px;
+  border-radius: 4px;
+}
+
+header #navbar #paginas ul {
+  width: 45%;
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  justify-content: space-around;
+}
+
+header #navbar #paginas ul li {
+  text-decoration: none;
+}
+
+header #navbar #paginas ul li a {
+  font-size: 21px;
+  text-decoration: none;
+  color: #ffdada;
+  border-radius: 15px;
+  transition: all 0.3s;
+  font-family: poppins;
+}
+
+header #navbar #paginas ul li a:hover {
+  color: #dfc038;
+  text-decoration: underline;
+}
+
+
+/* -------------------------FIM HEADER/NAV----------------------------------------- */
+/* ---------------------------BOTÃO HEADER------------------------------------------ */
+
+/* From Uiverse.io by satyamchaudharydev */
+/* The switch - the box around the slider */
+.switch {
+  display: block;
+  --width-of-switch: 3.5em;
+  --height-of-switch: 2em;
+  /* size of sliding icon -- sun and moon */
+  --size-of-icon: 1.4em;
+  /* it is like a inline-padding of switch */
+  --slider-offset: 0.3em;
+  position: relative;
+  width: var(--width-of-switch);
+  height: var(--height-of-switch);
+  margin-left: 100px;
+  margin-top: 20px;
+}
+
+
+/* ACIMA MEXE NA CAIXA DO BOTAO */
+
+
+
+/* OCULTA A CAIXA HTML PRÈ-DETERMINADO*/
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* SLIDER */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ebe9e2;
+  transition: .4s;
+  border-radius: 30px;
+}
+
+/* BOTAO ANTES DO CLICK */
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: var(--size-of-icon, 1.4em);
+  width: var(--size-of-icon, 1.4em);
+  border-radius: 20px;
+  left: var(--slider-offset, 0.3em);
+  top: 50%;
+  transform: translateY(-50%);
+  background-image: url(https://images.vexels.com/content/145137/preview/sun-sharp-rays-icon-1e8970.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: .4s;
+}
+
+/* BOTAO DEPOIS DO CLICK */
+
+input:checked+.slider {
+  background-color: #303136;
+}
+
+input:checked+.slider:before {
+  left: calc(100% - (var(--size-of-icon, 1.4em) + var(--slider-offset, 0.3em)));
+  background: #303136;
+  /* altere o valor da segunda inserção em box-shadow para alterar o ângulo e a direção da lua  */
+  box-shadow: inset -3px -2px 5px -2px #8983f7, inset -10px -4px 0 0 #a3dafb;
+}
+
+/* COR DEPOIS DO CLICK */
+
+/* ---------------FIM BOTAO HEADER--------------------------------- */
+
+/* -------------------------FIM HEADER/NAV----------------------------------------- */
+/* ---------------------------BOTÃO HEADER------------------------------------------ */
+
+/* From Uiverse.io by satyamchaudharydev */
+/* The switch - the box around the slider */
+header .switch {
+  display: block;
+  --width-of-switch: 3.5em;
+  --height-of-switch: 2em;
+  /* size of sliding icon -- sun and moon */
+  --size-of-icon: 1.4em;
+  /* it is like a inline-padding of switch */
+  --slider-offset: 0.3em;
+  position: relative;
+  width: var(--width-of-switch);
+  height: var(--height-of-switch);
+  margin-left: 100px;
+}
+
+
+/* ACIMA MEXE NA CAIXA DO BOTAO */
+
+
+
+/* OCULTA A CAIXA HTML PRÈ-DETERMINADO*/
+header .switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* SLIDER */
+header .slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ebe9e2;
+  transition: .4s;
+  border-radius: 30px;
+}
+
+/* BOTAO ANTES DO CLICK */
+
+header .slider:before {
+  position: absolute;
+  content: "";
+  height: var(--size-of-icon, 1.4em);
+  width: var(--size-of-icon, 1.4em);
+  border-radius: 20px;
+  left: var(--slider-offset, 0.3em);
+  top: 50%;
+  transform: translateY(-50%);
+  background-image: url(https://images.vexels.com/content/145137/preview/sun-sharp-rays-icon-1e8970.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: .4s;
+}
+
+/* BOTAO DEPOIS DO CLICK */
+
+header input:checked+.slider {
+  background-color: #303136;
+}
+
+header input:checked+.slider:before {
+  left: calc(100% - (var(--size-of-icon, 1.4em) + var(--slider-offset, 0.3em)));
+  background: #303136;
+  /* altere o valor da segunda inserção em box-shadow para alterar o ângulo e a direção da lua  */
+  box-shadow: inset -3px -2px 5px -2px #8983f7, inset -10px -4px 0 0 #a3dafb;
+}
+
+/* COR DEPOIS DO CLICK */
+
+/* ---------------FIM BOTAO HEADER--------------------------------- */
+header #navbar img {
+  width: 90px;
+}
+
+header #navbar {
+  display: flex;
+}
+
+header {
+  width: 100%;
+  top: 0;
+  /* padding: 10px; */
+  /* background-color: gray; */
+
+}
+
+header #navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: #591902;
+  padding: 15px;
+}
+
+header #navbar ul {
+  width: 45%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style-type: none;
+
+
+
+}
+
+header #navbar ul li {
+  text-decoration: none;
+
+
+}
+
+header #navbar ul li a {
+  font-size: 21px;
+  padding: 10px;
+  text-decoration: none;
+  color: #ffdada;
+  border-radius: 15px;
+  transition: all 0.3s;
+}
+
+/* Modo Escuro */
+.dark-mode header #navbar #paginas ul li a:hover {
+  text-decoration: underline;
+}
+
+.dark-mode header #navbar #paginas {
+  background-color: #132e35;
+
+}
+
+.dark-mode {
+  background-color: #0d1f23;
+  color: #ffffff;
+}
+
+
+.dark-mode #Segunda #linha {
+  background-color: #ffffff;
+}
+
+.dark-mode footer {
+  background-color: #132e35;
+}
+
+.dark-mode #navbar {
+  background-color: #132e35;
+
+}
+
+footer {
+  background-color: #591902;
+  color: white;
+  height: 225px;
+  font-size: 21px;
+  font-family: "Poppins", serif;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  bottom: 0
+}
+
+footer .imgrodape {
+  width: 40px;
+  height: 40px;
+}
+
+footer p {
+  padding: 10px;
+}
+
+
+footer #contatos {
+  filter: invert(100%);
+  cursor: pointer;
+}
+
+footer #contatos #acima {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+footer #contatos #acima img {
+  width: 52px;
+  height: 52px;
+}
+
+footer #contatos #abaixo {
+  width: 150px;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+footer #ajuda nav ul {
+  text-align: center;
+  list-style: none;
+}
+
+footer #ajuda nav ul li a {
+  text-decoration: none;
+  color: white;
+  transition: 0.3s;
+}
+
+footer #ajuda nav ul li a:hover {
+  color: #dfc038;
+}
+
+footer #direitos {
+  text-align: center;
+  align-self: end;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+
+  #sec {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #sec img {
+    width: 100%;
+  }
+
+  #frst {
+    display: flex;
+    flex-direction: column-reverse;
+
+  }
+
+  #frst img {
+    width: 100%;
+    height: 100vh;
+  }
+
+  #sec {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+  }
+
+  .counter1 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 15px;
+
+  }
+
+  .counter2 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 15px;
+
+  }
+
+  section {
+    height: 150vh;
+  }
+
+  #logo {
+    margin-left: 100px;
+  }
+
+  #navbar {
+    width: 100%;
+    height: 100px;
+    justify-content: space-between;
+  }
+
+  header nav #paginas #botaoMenuHamburger {
+    display: block;
+  }
+
+  header nav #paginas #botaoMenuHamburger .bar {
+    display: block;
+    background-color: white;
+    margin: 10px;
+    width: 50px;
+    height: 8px;
+    border-radius: 4px;
+  }
+
+
+
+  header #navbar #paginas {
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    top: 0px;
+    left: -10px;
+    background-color: #0d1f2300;
+  }
+
+  header #navbar #paginas ul {
+    margin-top: 100px;
+    display: none;
+    flex-direction: column;
+    background-color: #0d1f23b7;
+    position: fixed;
+    top: 0px;
+    left: 0;
+    width: fit-content;
+    height: 30vh;
+    align-items: start;
+    justify-content: start;
+
+
+  }
+  body{ overflow-x: hidden;}
+  header #navbar #paginas ul li {
+    margin: 12px 0;
+  }
+
+  footer {
+    margin-top: 20%;
+    background-color: #591902;
+    color: white;
+    height: 345px;
+    font-size: 21px;
+
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    bottom: 0
+  }
+
+  footer #contatos {
+    margin-top: 20px;
+  }
+
+  footer .imgrodape {
+    width: 40px;
+    height: 40px;
+  }
+
+  footer #ajuda {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 21px;
+  }
+
+  footer #ajuda nav ul li a:hover {
+    color: #dfc038;
+  }
+
+  footer #direitos {
+    align-self: center;
+    text-align: center;
+    padding: 10px;
+    order: 1;
+  }
+}
+
+/* Botão Link */
+.ctaa {
+  text-decoration: none;
+}

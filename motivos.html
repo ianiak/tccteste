@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="motivos.css">
+    <title>Sem Fronteiras</title>
+</head>
+
+<body>
+    <header>
+        <nav id="navbar">
+            <div class="imag">
+                <img src="./images/logo.png" id="logo" alt="">
+            </div>
+            <div id="paginas">
+                <div id="botaoMenuHamburger">
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                </div>
+
+
+                <ul id="navl">
+                    <li><a href="/visao.html">VISÃO</a></li>
+                    <li><a href="/motivos.html">MOTIVOS</a></li>
+                    <li><a href="/dificuldades.html">DIFICULDADES</a></li>
+                    <li><a href="/como-ajudar.html">ONG's</a></li>
+                </ul>
+
+            </div>
+
+            <label onclick="alternarModo()" class="switch">
+                <input onclick="darkMode()" type="checkbox">
+                <span class="slider"></span>
+            </label>
+        </nav>
+    </header>
+    <!-------------------------------- FIM HEADER ----------------------------------------->
+
+    <h1>SEM FRONTEIRAS</h1>
+
+    <section id="secao1">
+        <div class="secao1">
+
+            <img src="https://www.goias246.com.br/arquivos/noticias/8542/imigracao-se-torna-problema-central-na-eleicao-ate-para-imigrantes-nos-eua.png"
+                alt="" data-aos="zoom-in-up">
+
+            <div class="text1" data-aos="fade-left">
+                <h2>Você não está sozinho!</h2>
+                <p>o Brasil tem recebido um número crescente de imigrantes, com cerca de 300.000 a 350.000 pessoas
+                    entrando no país anualmente, segundo o IBGE. Entre 2017 e 2020, mais de 1,2 milhão de imigrantes
+                    chegaram.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ---------------------------FIM SEÇÃO 1------------------------------------- -->
+
+    <h2 class="htwo">Principais Motivos</h2>
+    <p class="intro2">As pessoas imigram por diversos motivos, que podem ser Econômicas, Sociais, Naturais ou de
+        Seguranças.</p>
+
+    <section id="secao2">
+        <div class="text2">
+
+            <div class="img12"></div>
+            <h3 data-aos="fade-down">Econômicas:</h3>
+            <p class="ex" data-aos="fade-down">Desemprego, padrões laborais deficientes, e a saúde da economia do país.
+                Fatores de atração
+                incluem salários mais elevados, melhores oportunidades de emprego, e um padrão de vida mais elevado;</p>
+
+
+            <h3 data-aos="fade-right">Sociais:</h3>
+            <p class="ex" data-aos="fade-right">Guerras, crises econômicas, sanitárias, humanitárias, ou perseguições
+                (religiosas, políticas e
+                étnicas);</p>
+
+            <h3 data-aos="fade-left">Naturais:</h3>
+            <p class="ex" data-aos="fade-left">Fenômenos atmosféricos como chuvas intensas, furacões, condições
+                climáticas extremas, e
+                desastres ambientais como terremotos e tsunamis;</p>
+        </div>
+
+        <img src="https://super.abril.com.br/wp-content/uploads/2018/07/imigraccca7acc83o_site2.jpg?crop=1&resize=1212,909"
+            alt="" data-aos="zoom-in-up">
+
+
+
+
+    </section>
+    <!-- -----------------------FIM SEÇÃO 2------------------------------------------- -->
+
+    <section id="third" data-aos="zoom-in-up">
+        <img src="/img motivos/imagens.jpg" alt="" id="thirdimage">
+        <h2>Estamos aqui para te ajudar!</h2>
+        <p>Conheça Ong’s que podem lhe auxilhar no seu novo começo!</p>
+        <button onclick="window.location.href = 'como-ajudar.html'">Conheça</button>
+    </section>
+
+    <!-- ----------------------------FIM SEÇÃO 3---------------------------------------------------------------- -->
+
+    <footer>
+        <div id="contatos">
+
+            <div id="acima">
+                <img src="./images/rede.png" alt="" class="imgrodape">
+            </div>
+
+            <div id="abaixo">
+                <img onclick="window.location.href = '' " src="./images/linkedin.png" alt="" class="imgrodape">
+                <img onclick="window.location.href = '' " src="./images/twitter.png" alt="" class="imgrodape">
+                <img onclick="window.location.href = '' " src="./images/instagram.png" alt="" class="imgrodape">
+            </div>
+
+        </div>
+
+        <p id="direitos">&copy; Todos os direitos reservados.</p>
+
+        <div id="ajuda">
+            <nav>
+                <ol>
+                    <li> <a href="visao.html">Visão</a></li>
+                    <li> <a href="motivos.html">Motivos</a></li>
+                    <li> <a href="dificuldades.html">Dificuldades</a></li>
+                    <li> <a href="como-ajudar.html">ONGs</a></li>
+                </ol>
+            </nav>
+        </div>
+
+    </footer>
+
+
+
+
+    <script src="motivos.js"></script>
+
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>

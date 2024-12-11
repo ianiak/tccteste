@@ -1,0 +1,684 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+@font-face {
+  font-family: Poppins;
+  src: url(./Fontes/Poppins/Poppins-Regular.ttf);
+}
+
+@font-face {
+  font-family: Lora;
+  src: url(./Fontes/Lora/Lora-VariableFont_wght.ttf);
+} 
+
+
+
+header #navbar img {
+  width: 90px;
+}
+
+header #navbar {
+  display: flex;
+}
+
+header {
+  top: 0;
+}
+
+
+header #navbar #paginas{
+  display: flex;
+  justify-content: space-between;
+  background-color: #591902;
+  padding: 15px;
+}
+
+header nav #paginas #botaoMenuHamburger{
+  display: none;
+}
+
+header nav #paginas #botaoMenuHamburger .bar{
+  display: none;
+  background-color: white;
+  margin: 10px;
+  width: 50px;
+  height: 8px;
+  border-radius: 4px;
+}
+
+header #navbar #paginas ul {
+  width: 45%;
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  justify-content: space-around;
+}
+
+header #navbar #paginas ul li {
+  text-decoration: none;
+}
+
+header #navbar #paginas ul li a {
+  font-size: 21px;
+  text-decoration: none;
+  color: rgb(255, 218, 218);
+  border-radius: 15px;
+  transition: all 0.3s;
+  font-family: poppins;
+}
+
+header #navbar #paginas ul li a:hover {
+  color: #dfc038;
+  text-decoration: underline;
+}
+
+
+/* -------------------------FIM HEADER/NAV----------------------------------------- */
+/* ---------------------------BOTÃO HEADER------------------------------------------ */
+
+/* From Uiverse.io by satyamchaudharydev */
+/* The switch - the box around the slider */
+.switch {
+  display: block;
+  --width-of-switch: 3.5em;
+  --height-of-switch: 2em;
+  /* size of sliding icon -- sun and moon */
+  --size-of-icon: 1.4em;
+  /* it is like a inline-padding of switch */
+  --slider-offset: 0.3em;
+  position: relative;
+  width: var(--width-of-switch);
+  height: var(--height-of-switch);
+  margin-left: 100px;
+  margin-top: 20px;
+}
+
+
+/* ACIMA MEXE NA CAIXA DO BOTAO */
+
+
+
+/* OCULTA A CAIXA HTML PRÈ-DETERMINADO*/
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* SLIDER */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ebe9e2;
+  transition: .4s;
+  border-radius: 30px;
+}
+
+/* BOTAO ANTES DO CLICK */
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: var(--size-of-icon, 1.4em);
+  width: var(--size-of-icon, 1.4em);
+  border-radius: 20px;
+  left: var(--slider-offset, 0.3em);
+  top: 50%;
+  background-image: url(https://images.vexels.com/content/145137/preview/sun-sharp-rays-icon-1e8970.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: 0.4s;
+}
+
+/* BOTAO DEPOIS DO CLICK */
+
+input:checked+.slider {
+  background-color: #303136;
+}
+
+input:checked+.slider:before {
+  left: calc(100% - (var(--size-of-icon, 1.4em) + var(--slider-offset, 0.3em)));
+  background: #303136;
+  /* altere o valor da segunda inserção em box-shadow para alterar o ângulo e a direção da lua  */
+  box-shadow: inset -3px -2px 5px -2px #8983f7, inset -10px -4px 0 0 #a3dafb;
+}
+/* COR DEPOIS DO CLICK */
+
+/* ---------------FIM BOTAO HEADER--------------------------------- */
+
+/* -------------------------FIM HEADER/NAV----------------------------------------- */
+/* ---------------------------BOTÃO HEADER------------------------------------------ */
+
+/* From Uiverse.io by satyamchaudharydev */
+/* The switch - the box around the slider */
+header .switch {
+  display: block;
+  --width-of-switch: 3.5em;
+  --height-of-switch: 2em;
+  /* size of sliding icon -- sun and moon */
+  --size-of-icon: 1.4em;
+  /* it is like a inline-padding of switch */
+  --slider-offset: 0.3em;
+  position: relative;
+  width: var(--width-of-switch);
+  height: var(--height-of-switch);
+  margin-left: 100px;
+}
+
+
+/* ACIMA MEXE NA CAIXA DO BOTAO */
+
+
+
+/* OCULTA A CAIXA HTML PRÈ-DETERMINADO*/
+header .switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* SLIDER */
+header .slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ebe9e2;
+  transition: .4s;
+  border-radius: 30px;
+}
+
+/* BOTAO ANTES DO CLICK */
+
+header .slider:before {
+  position: absolute;
+  content: "";
+  height: var(--size-of-icon, 1.4em);
+  width: var(--size-of-icon, 1.4em);
+  border-radius: 20px;
+  left: var(--slider-offset, 0.3em);
+  top: 50%;
+  transform: translateY(-50%);
+  background-image: url(https://images.vexels.com/content/145137/preview/sun-sharp-rays-icon-1e8970.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: .4s;
+}
+
+/* BOTAO DEPOIS DO CLICK */
+
+header input:checked+.slider {
+  background-color: #303136;
+}
+
+header input:checked+.slider:before {
+  left: calc(100% - (var(--size-of-icon, 1.4em) + var(--slider-offset, 0.3em)));
+  background: #303136;
+  /* altere o valor da segunda inserção em box-shadow para alterar o ângulo e a direção da lua  */
+  box-shadow: inset -3px -2px 5px -2px #8983f7, inset -10px -4px 0 0 #a3dafb;
+}
+/* COR DEPOIS DO CLICK */
+
+/* ---------------FIM BOTAO HEADER--------------------------------- */
+
+
+body{
+  background-color: #f2dcc2;
+  transition: background-color 0.4s ease-in-out, color 0.4s ease-in-out;
+}
+
+h2 {
+  font-family: Lora;
+}
+
+p {
+  font-family: Poppins;
+}
+
+#parallax {
+  background: url(./images/paralaxe.jpg.jfif);
+  height: 100Vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  font-weight: 300;
+  display: flex;
+  flex-direction: column;
+
+}
+
+#parallax h2 {
+  font-size: 32px;
+
+}
+
+#parallax p {
+  font-size: 21px;
+  padding-bottom: 150px;
+  width: 60%;
+}
+
+
+#parallax h2,
+#parallax p {
+  color: white;
+}
+
+
+section {
+  /* height: 100vh; */
+  margin: 115px auto;
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+
+}
+
+#Intro img {
+  height: 420px;
+  margin: 0 5vw;
+}
+
+#Intro h2 {
+  text-align: center;
+  margin: 0 5vw;
+  font-size: 32px;
+}
+
+#Segunda {
+  display: flex;
+  align-items: center;
+}
+
+#Segunda h2 {
+  text-align: center;
+  margin: 0 5vw;
+  font-size: 32px;
+  margin-bottom: 25px;
+}
+
+#Segunda p {
+  text-align: center;
+  margin: 0 3vw;
+  font-size: 21px;
+}
+
+#Segunda #linha {
+  background-color: black;
+  width: 0.5vw;
+  height: 500px;
+  margin: 0 auto;
+}
+
+
+#Segunda #recolocacao {
+  margin-top: 30px;
+}
+
+#habitacao {
+  display: flex;
+  justify-content: space-around;
+
+}
+
+#habitacao p {
+  font-size: 20px;
+  width: 500px;
+  height: 400px;
+  margin-top: 20px;
+  text-align: center;
+
+}
+
+#habitacao h2 {
+  text-align: center;
+}
+
+#habitacao img {
+  width: 330px;
+  height: 500px;
+}
+
+footer {
+  background-color: #591902;
+  color: white;
+  height: 225px;
+  font-size: 21px;
+  font-family: "Poppins", serif;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  bottom: 0
+}
+
+footer .imgrodape {
+  width: 40px;
+  height: 40px;
+}
+
+footer p {
+  padding: 10px;
+}
+
+
+footer #contatos {
+  filter: invert(100%);
+
+}
+
+footer #contatos #acima {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+footer #contatos #acima img {
+  width: 52px;
+  height: 52px;
+}
+
+footer #contatos #abaixo {
+  width: 150px;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+
+
+footer #ajuda nav ul {
+  text-align: center;
+  list-style: none;
+}
+
+footer #ajuda nav ul li a {
+  text-decoration: none;
+  color: white;
+  transition: 0.3s;
+}
+
+footer #ajuda nav ul li a:hover {
+  color: #dfc038;
+}
+
+footer #direitos {
+  text-align: center;
+  align-self: end;
+}
+
+
+ 
+
+
+
+
+
+
+  /* ------------------------------------- HEADER ------------------------------------- */
+  header #navbar img {
+    width: 90px;
+  }
+  
+  header #navbar {
+    display: flex;
+  }
+  
+  header {
+    width: 100%;
+    top: 0;
+    /* padding: 10px; */
+    /* background-color: gray; */
+  
+  }
+  
+  header #navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: #591902;
+    padding: 15px; 
+  }
+  
+  header #navbar ul {
+    width: 45%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+  
+  
+  
+  }
+  
+  header #navbar ul li {
+    text-decoration: none;
+  
+  
+  }
+  
+  header #navbar ul li a {
+    font-size: 21px;
+    padding: 10px;
+    text-decoration: none;
+    color: rgb(255, 218, 218);
+    border-radius: 15px;
+    transition: all 0.3s;
+  }
+  
+  header #navbar ul li a:hover {
+    color: #dfc038;
+    text-decoration: underline;
+  }
+
+
+  /* ------------------------------------- Responsividade ------------------------------------- */
+@media (max-width: 460px) {
+
+/* ------------------------------------- HEADER responsivo ------------------------------------- */
+#logo{
+  margin-left: 185px;
+}
+#navbar{
+  width: 100%;
+  height: 100px;
+  justify-content: space-between;
+}
+
+header nav #paginas #botaoMenuHamburger{
+  display: block;
+}
+
+header nav #paginas #botaoMenuHamburger .bar{
+  display: block;
+  background-color: white;
+  margin: 10px;
+  width: 50px;
+  height: 8px;
+  border-radius: 4px;
+}
+
+
+
+header #navbar #paginas{
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+  top: 0px;
+  left: -10px;
+  background-color: #0d1f2300;
+}
+
+header #navbar #paginas ul{
+  margin-top: 100px;
+  display: none;
+  flex-direction: column;
+  background-color: #0d1f23b7;
+  position: fixed;
+  top: 0px;
+  left: 0;
+  width: fit-content;
+  height: 30vh;
+  align-items: start;
+  justify-content: start;
+  
+  
+}
+
+header #navbar #paginas ul li{
+  margin: 12px 0;
+}
+
+
+  /* ------------------------------------- BODY  responsivo ------------------------------------- */
+
+  body{
+    width: fit-content;
+  }
+  body main #Intro {
+    display: block;
+    text-align: center;
+  }
+
+  body main #Intro img {
+    height: 220px;
+  }
+
+  body main #Intro h2 {
+    font-size: 30px;
+    padding-bottom: 20px;
+  }
+
+  body main #Segunda {
+    display: block;
+    text-align: left;
+  }
+
+  #Segunda #linha {
+    background-color: black;
+    width: 500px;
+    height: 0.5vw;
+    margin: auto;
+  }
+
+  #Segunda #barreiras {
+    margin-bottom: 100px;
+  }
+
+  #Segunda #recolocacao {
+    margin-top: 100px;
+  }
+
+
+  #habitacao {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-around;
+    margin-top: 100px;
+  }
+  
+  #habitacao p {
+    font-size: 21px;
+    width: 500px;
+    height: 400px;
+    margin-top: 20px;
+    text-align: center;
+  
+  }
+  
+  #habitacao h2 {
+    text-align: center;
+  }
+  
+  #habitacao img {
+    width: 330px;
+    height: 500px;
+    margin-top: 100px;
+  }
+
+  #parallax p{
+    font-size: 21px;
+    padding-bottom: 150px;
+    width: 92%;
+    text-align: center;
+  }
+
+/* ------------------------------------- Footer responsivo ------------------------------------- */
+footer {
+  background-color: #591902;
+  color: white;
+  height: 350px;
+  font-size: 21px;
+  font-family: "Poppins", serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  bottom: 0
+}
+
+footer #contatos {
+  margin-top: 20px;
+}
+
+footer .imgrodape {
+  width: 40px;
+  height: 40px;
+}
+
+footer #ajuda {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 21px;
+}
+
+footer #ajuda nav ul li a:hover {
+  color: #dfc038;
+}
+
+footer #direitos {
+  align-self: center;
+  text-align: center;
+  padding: 10px;
+  order: 1;
+}
+
+}
+
+
+/* ------------------------------------- MODO ESCURO ------------------------------------- */
+
+
+
+.dark-mode header #navbar #paginas{
+  background-color: #132e3500;
+}
+.dark-mode {
+  background-color: #0d1f23;
+  color: #ffffff;
+}
+
+
+.dark-mode #Segunda #linha {
+  background-color: rgb(255, 255, 255);
+}
+
+.dark-mode footer {
+  background-color: #132e35;
+}
+
+.dark-mode #navbar{
+  background-color: #132e35;
+}
+
+
+/* Animações */
